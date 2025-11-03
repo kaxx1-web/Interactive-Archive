@@ -9,7 +9,6 @@ function ProfileCard({ profile, onMoveToFront, onShuffle }) {
         <div className="profile-emoji">{profile.emoji}</div>
         <h2 className="profile-name">{profile.name}</h2>
         <p className="profile-hobby">{profile.hobby}</p>
-        <p className="profile-bio">{profile.bio}</p>
       </div>
 
       {/* Image Gallery inside Profile Card */}

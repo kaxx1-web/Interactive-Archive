@@ -19,25 +19,23 @@ function App() {
       name: "Karen",
       hobby: "Photography",
       emoji: "📸",
-      bio: "I like dogs and taking photos"
     },
     lisa: {
       name: "Lisa",
       hobby: "Reading",
       emoji: "📚",
-      bio: "Book lover and coffee enthusiast"
+
     },
     twin: {
       name: "Twin",
       hobby: "Gaming",
       emoji: "🎮",
-      bio: "Pro gamer and streamer"
+
     },
     lala: {
       name: "Lala",
       hobby: "Eating",
       emoji: "🪣",
-      bio: "Food critic and chef"
     }
   };
 
