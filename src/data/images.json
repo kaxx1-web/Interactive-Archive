@@ -1,5 +1,8 @@
 [
-    { "id": 1, "url": "/src/images/cart1.png", "title": "basket one" },
-    { "id": 2, "url": "/src/images/cart2.png", "title": "basket two" },
-    { "id": 3, "url": "/src/images/cart3.png", "title": "basket three" }
+    { "id": 1, "url": "/images/teeth-01.png", "title": "teeth one" },
+    { "id": 2, "url": "/images/teeth-02.png", "title": "teeth two" },
+    { "id": 3, "url": "/images/teeth-03.png", "title": "teeth three" },
+    { "id": 4, "url": "/images/teeth-04.png", "title": "teeth four" },
+    { "id": 5, "url": "/images/teeth-05.png", "title": "teeth five" },
+    { "id": 6, "url": "/images/teeth-06.png", "title": "teeth six" }
   ]
