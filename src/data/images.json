@@ -1,0 +1,5 @@
+[
+    { "id": 1, "url": "/src/images/cart1.png", "title": "basket one" },
+    { "id": 2, "url": "/src/images/cart2.png", "title": "basket two" },
+    { "id": 3, "url": "/src/images/cart3.png", "title": "basket three" }
+  ]
