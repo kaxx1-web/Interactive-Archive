@@ -1,6 +1,6 @@
 {
   "homepage": "https://<kaxx1>.github.io/<Interactive-Archive>",
-  "name": "react",
+  "name": "interactive-archive",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.1.1",
