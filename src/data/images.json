@@ -1,10 +1,10 @@
 [
-    { "id": 1, "url": "/images/teeth-01.png", "title": "teeth one" },
-    { "id": 2, "url": "/images/teeth-02.png", "title": "teeth two" },
-    { "id": 3, "url": "/images/teeth-03.png", "title": "teeth three" },
-    { "id": 4, "url": "/images/teeth-04.png", "title": "teeth four" },
-    { "id": 5, "url": "/images/teeth-05.png", "title": "teeth five" },
-    { "id": 6, "url": "/images/teeth-06.png", "title": "teeth six" },
-    {"id": 7, "url": "/images/trash.jpg", "title": "just a bag"},
-    {"id":8, "url": "/images/me.jpg", "title": "yup"}
+    { "id": 1, "url": "./images/teeth-01.png", "title": "teeth one" },
+    { "id": 2, "url": "./images/teeth-02.png", "title": "teeth two" },
+    { "id": 3, "url": "./images/teeth-03.png", "title": "teeth three" },
+    { "id": 4, "url": "./images/teeth-04.png", "title": "teeth four" },
+    { "id": 5, "url": "./images/teeth-05.png", "title": "teeth five" },
+    { "id": 6, "url": "./images/teeth-06.png", "title": "teeth six" },
+    {"id": 7, "url": "./images/trash.jpg", "title": "just a bag"},
+    {"id":8, "url": "./images/me.jpg", "title": "yup"}
   ]
