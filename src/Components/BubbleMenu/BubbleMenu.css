@@ -1,4 +1,4 @@
-/* Bubble Menu Container */
+/* Bubble navigation Container */
 .bubble-menu-container {
     position: fixed;
     bottom: 2rem;
@@ -11,13 +11,10 @@
     display: flex;
     gap: 0.5rem;
     padding: 0.5rem;
-    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 9999px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-                0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 10px solid rgba(255, 255, 255, 0.6);
   }
   
   .bubble-menu-item {
@@ -35,26 +32,26 @@
   }
   
   .bubble-menu-item:hover {
-    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    background: #f78484;
     transform: scale(1.15);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
   }
   
   .bubble-menu-item.active {
-    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    background:  #000000;
     transform: scale(1.15);
-    box-shadow: 0 8px 16px rgba(59, 130, 246, 0.4);
   }
   
   .bubble-emoji {
     display: block;
     filter: grayscale(100%);
     transition: filter 0.3s;
+     color: #ffffff;
   }
   
   .bubble-menu-item:hover .bubble-emoji,
   .bubble-menu-item.active .bubble-emoji {
-    filter: grayscale(0%);
+    filter: none;
+   
   }
   
   /* Tooltip */
@@ -64,8 +61,8 @@
     left: 50%;
     transform: translateX(-50%);
     padding: 0.5rem 1rem;
-    background: #1f2937;
-    color: white;
+    background: #637ea4;
+    color: rgb(85, 219, 234);
     font-size: 0.875rem;
     border-radius: 0.5rem;
     white-space: nowrap;
@@ -89,120 +86,4 @@
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     border-top: 4px solid #1f2937;
-  }
-  
-  /* Profile Card Styles (Add these to your App.css or keep here) */
-  .app-container {
-    min-height: 100vh;
-    padding: 2rem;
-    padding-bottom: 8rem; /* Space for bubble menu */
-  }
-  
-  .profile-showcase {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .profile-card-large {
-    background: white;
-    border-radius: 2rem;
-    padding: 3rem;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-                0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    animation: fadeIn 0.5s ease;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .profile-header {
-    text-align: center;
-    margin-bottom: 3rem;
-    padding-bottom: 2rem;
-    border-bottom: 2px solid #e5e7eb;
-  }
-  
-  .profile-emoji {
-    font-size: 5rem;
-    margin-bottom: 1rem;
-    animation: bounce 2s infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-  
-  .profile-name {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #1f2937;
-    margin: 0.5rem 0;
-  }
-  
-  .profile-hobby {
-    font-size: 1.5rem;
-    color: #6b7280;
-    margin: 0.5rem 0;
-  }
-  
-  .profile-bio {
-    font-size: 1.125rem;
-    color: #9ca3af;
-    margin-top: 1rem;
-    font-style: italic;
-  }
-  
-  .profile-gallery {
-    margin-top: 2rem;
-  }
-  
-  .profile-gallery h3 {
-    font-size: 2rem;
-    color: #374151;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  .shuffle-btn {
-    display: block;
-    margin: 2rem auto 0;
-    padding: 1rem 2rem;
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: white;
-    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-    border: none;
-    border-radius: 9999px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .shuffle-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(59, 130, 246, 0.3);
-  }
-  
-  .shuffle-btn:active {
-    transform: scale(0.98);
   }

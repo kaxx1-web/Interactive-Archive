@@ -1,6 +1,7 @@
+/* the polaroid card finish */
 .image-card {
-    background: white;
     border-radius: 1rem;
+    background: linear-gradient(180deg, #f8d7b6, #f0eaad, #f8b6d374);
     padding: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -18,19 +19,11 @@
   }
   
   .image-card img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
+    width: 250px;          
+    height: 250px;          
     border-radius: 0.5rem;
-    object-fit: cover;
-  }
-  
-  .image-card p {
-    margin: 0;
-    font-size: 1rem;
-    color: #374151;
-    font-weight: 500;
-    text-align: center;
+    object-fit: cover;      
+    display: block;
   }
   
   .image-card button {
@@ -42,6 +35,7 @@
     font-size: 0.875rem;
     font-weight: 600;
     transition: all 0.2s ease;
+    background: transparent; 
   }
   
   .image-card button:active {

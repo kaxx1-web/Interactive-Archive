@@ -5,37 +5,27 @@ import ImageData from "./data/images.json";
 import BubbleMenu from './Components/BubbleMenu/BubbleMenu'
 
 function App() {
-  const [activeProfile, setActiveProfile] = useState('karen');
+  const [activeProfile, setActiveProfile] = useState('one');
   const [profileImages, setProfileImages] = useState({
-    karen: ImageData.slice(0, 3),
-    lisa: ImageData.slice(1, 4),
-    twin: ImageData.slice(2, 5),
-    lala: ImageData.slice(3, 6)
+    one: ImageData.slice(0, 3),
+    two: ImageData.slice(6, 8),
+    three: ImageData.slice(3, 6),
+    four: ImageData.slice(5, 8)
   });
   
   // Profile metadata
   const profilesData = {
-    karen: {
-      name: "Karen",
-      hobby: "Photography",
-      emoji: "📸",
+    one: {
+      name: "gallery one",
     },
-    lisa: {
-      name: "Lisa",
-      hobby: "Reading",
-      emoji: "📚",
-
+    two: {
+      name: "gallery two",
     },
-    twin: {
-      name: "Twin",
-      hobby: "Gaming",
-      emoji: "🎮",
-
+    three: {
+      name: "gallery three",
     },
-    lala: {
-      name: "Lala",
-      hobby: "Eating",
-      emoji: "🪣",
+    four: {
+      name: "gallery four",
     }
   };
 
@@ -70,6 +60,11 @@ function App() {
   return (
     <div className="app-container">
       <div className="profile-showcase">
+        <BubbleMenu 
+        activeProfile={activeProfile} 
+        setActiveProfile={setActiveProfile}
+        profiles={profilesData}
+        />
         <ProfileCard 
           profile={currentProfile}
           onMoveToFront={moveImageToFront}
@@ -77,11 +72,6 @@ function App() {
         />
       </div>
 
-      <BubbleMenu 
-        activeProfile={activeProfile} 
-        setActiveProfile={setActiveProfile}
-        profiles={profilesData}
-      />
     </div>
   );
 }

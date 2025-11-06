@@ -3,10 +3,10 @@ import './BubbleMenu.css';
 
 function BubbleMenu({ activeProfile, setActiveProfile, profiles }) {
   const menuItems = [
-    { id: 'karen', label: 'Karen', emoji: '📸' },
-    { id: 'lisa', label: 'Lisa', emoji: '📚' },
-    { id: 'twin', label: 'Twin', emoji: '🎮' },
-    { id: 'lala', label: 'Lala', emoji: '🪣' },
+    { id: 'one', label: 'one', emoji: '☆' },      
+    { id: 'two', label: 'two', emoji: '★' },      
+    { id: 'three', label: 'three', emoji: '☆' },  
+    { id: 'four', label: 'four', emoji: '★' },    
   ];
 
   return (
